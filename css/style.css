@@ -9,15 +9,14 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
       background-color: #1ed6e8;	  
       z-index: 9999;
       border: 0;
-      font-size: 15px !important;
+      font-size: 25px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Roboto, sans-serif;
   }
- .header-top-left
-  {
-  float:left;
+ .header-top-left{
+	float:left;
 	width:40%;
   }
   .header-top-left ul{
@@ -30,7 +29,7 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
   }
   .header-top-left ul li a{
 	   color:#fff;
-	   font-size:10x;
+	   font-size:20px;
 	   text-decoration:none;
   }
   span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-lock {
@@ -57,14 +56,14 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
 }
 .navbar {
       margin-bottom: 0;
-      background-color: #1ECBF4;
+      background-color: #1ed6e8;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
-      font-family: Timenewroman;
+      font-family: "Times New Roman";
   }
 .navbar li a, .navbar .navbar-brand {
       color: #000 !important;
@@ -87,8 +86,9 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
 .multi-column-dropdown li {
 	list-style-type:none;
 	margin: 5px 0;
-	font-family: Timenewroman;
+	font-family: "Time New Roman";
 }
+
 .multi-column-dropdown li a {
     display: block;
     clear: both;
@@ -96,6 +96,7 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
     color: #000;
     white-space: normal;
     font-weight: 300;
+	font-family: "Time New Roman";
 }
 .multi-column-dropdown li a.list {
     font-weight: 600;
@@ -109,7 +110,7 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
 }
 .multi-column-dropdown li a:hover {
     text-decoration: none;
-    color: #816263;
+    color: #1ed6e8;
     background-color: #fff!important;
 }
 .dropdown-menu.columns-3 {
@@ -238,7 +239,6 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("themes/themes.gif") no-repeat left top;
   margin-top: -45px;
   }
 
@@ -257,7 +257,7 @@ nav.navbar.navbar-default{
 }
 
 .callbacks_tabs{
-        list-style: none;
+    list-style: none;
     position: absolute;
     bottom: -21%;
     z-index: 999;
@@ -270,7 +270,7 @@ nav.navbar.navbar-default{
  visibility: hidden;
 }
 .callbacks_tabs a:after {
-        content: "\f111";
+    content: "\f111";
     font-size: 0;
     font-family: FontAwesome;
     visibility: visible;
@@ -308,7 +308,6 @@ nav.navbar.navbar-default{
  h3 {
   font: 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #fff;
   }
   /*--hết 3 cái thanh--*/
 /*--shop COLLECTION*/
@@ -336,16 +335,16 @@ span.social{
 	display:inline-block;
 }
 #twitter{
-	background:url(../images/follow.png);
+	background:url("../images/follow.png");
 	background-position:0px 0px;
 }
 #facebook{
-	background:url(../images/follow.png);
+	background:url("../images/follow.png");
 	background-position: 25px 0px;
 }
 #shipping{
 	
-	background:url(../images/shipping.png);
+	background:url("../images/shipping.png");
 	width:50px;
 	height:45px;
 	display:inline-block;
@@ -817,7 +816,7 @@ ul.product-list li a:hover{
 }
 .tags_links li{
 	color: #fff;
-    background: #e9e9e9;
+    background: #1ed6e8;
     font-size: 15px;
     padding: 10 px;
 }
@@ -833,13 +832,14 @@ ul.product-list li a:hover{
 }
 .offer span{
 	display: inline-block;
-    background: #03A9F4;
+    background: #1ed6e8;
 	font-size: 30px;
     color: white;
     border-radius: 100%;
     padding: 25px 10px 25px 10px;
 }
 /*-- trang singel--*/
+
 .flex-control-thumbs li {
     width: 33% !important;
     padding-right: 5px;
@@ -900,15 +900,15 @@ span.social1 {
 	margin:5px;
 }
 #facebook1{
-	background:url(../images/s-icons.png);
+	background:url("../images/s-icons.png");
 	background-position:0px 0px;
 }
 #twitter1{
-	background:url(../images/s-icons.png);	
+	background:url("../images/s-icons.png");	
 	background-position:36px 0px;
 }
 #google1{
-	background:url(../images/s-icons.png);
+	background:url("../images/s-icons.png");
 	background-position:18px 0px;
 }
 .purchase a{
